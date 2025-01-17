@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary's Online Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #f8e1e1;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #d17d99;
+        }
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 1em;
+            color: #555;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #d17d99;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #d17d99;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f8e1e1;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/cover%20photo.jpg" alt="Mary's Online Shop Banner">
+        <h1>Welcome to Mary's Online Shop</h1>
+        <p>Discover unique fashion pieces that bring joy and elegance to your wardrobe!</p>
+    </header>
+
+    <section class="catalog">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="/mnt/data/floral%201.1.jpg" alt="Floral Outfit 1">
+            <h2>Tropical Floral Set</h2>
+            <p>A vibrant and stylish floral outfit perfect for summer vibes.</p>
+            <p class="price">$49.99</p>
+            <a href="#contact" class="button">Contact to Buy</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="/mnt/data/floral%201.2.jpg" alt="Floral Outfit 2">
+            <h2>Jungle Chic Two-Piece</h2>
+            <p>A chic two-piece floral set that stands out with bold colors and patterns.</p>
+            <p class="price">$54.99</p>
+            <a href="#contact" class="button">Contact to Buy</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mary's Online Shop. All rights reserved.</p>
+        <a name="contact"></a>
+        <h2>Contact Us</h2>
+        <p>Email: contact@marysonlineshop.com | Phone: (555) 123-4567</p>
+    </footer>
+</body>
+</html>
